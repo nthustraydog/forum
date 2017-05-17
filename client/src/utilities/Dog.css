@@ -1,0 +1,89 @@
+.dog-0 {
+    background: url("images/dog-0.png")
+}
+
+.dog-1 {
+    background: url("images/dog-1.png");
+}
+
+.dog-2 {
+    background: url("images/dog-2.png");
+}
+
+.dog-3 {
+    background: url("images/dog-3.png");
+}
+
+.dog-4 {
+    background: url("images/dog-4.png");
+}
+
+.dog-5 {
+    background: url("images/dog-5.png");
+}
+
+.dog-6 {
+    background: url("images/dog-6.png");
+}
+
+.dog-7 {
+    background: url("images/dog-7.png");
+}
+
+.dog-8 {
+    background: url("images/dog-8.png");
+}
+
+.dog-9 {
+    background: url("images/dog-9.png");
+}
+
+.dog-10 {
+    background: url("images/dog-10.png");
+}
+
+.dog-11 {
+    background: url("images/dog-11.png");
+}
+
+.dog-12 {
+    background: url("images/dog-12.png");
+}
+
+.dog-13 {
+    background: url("images/dog-13.png");
+}
+
+.dog-14 {
+    background: url("images/dog-14.png");
+}
+
+.dog-15 {
+    background: url("images/dog-15.png");
+}
+
+.dog-16 {
+    background: url("images/dog-16.png");
+}
+
+.dog-17 {
+    background: url("images/dog-17.png");
+}
+
+.dog-18 {
+    background: url("images/dog-18.png");
+}
+
+.dog {
+    width: 4rem;
+    height: 3rem;
+    border-radius: 999rem;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .dog {
+        width: 2rem;
+        height: 1.5rem;
+    }
+}

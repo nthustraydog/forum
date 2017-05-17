@@ -1,0 +1,78 @@
+.forum {
+    position: relative;
+    width: 100%;
+}
+
+
+.forum .board {
+    width: 100%;
+    background: #fff url('images/dog-bg.jpg') no-repeat center;
+    background-size: cover;
+    font-size: 1.2rem;
+}
+
+.forum .board.fg {
+    position: absolute;
+    z-index: 1;
+}
+
+.forum .board.bg {
+    position: absolute;
+    z-index: 0;
+}
+
+.forum .post.fg {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+}
+
+.forum .post.bg {
+    position: absolute;
+    z-index: 0;
+}
+
+.forum .navbar {
+    width: 18rem;
+    opacity: 0.9;
+}
+
+.forum .form {
+    position: relative;
+    z-index: 1;
+    width: 40rem;
+    height: 22rem;
+    opacity: 0.9;
+}
+
+.forum .list {
+    position: relative;
+    z-index: 0;
+    width: 40rem;
+    height: 64rem;
+    overflow: auto;
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    .forum {
+        padding: 0;
+        font-size: 0.3rem;
+    }
+    .forum .navbar {
+        width: 10rem
+    }
+    .forum .form {
+        width: 16rem;
+        height: 9rem;
+    }
+
+    .forum .list {
+        width: 16rem;
+        height: 48.5rem;
+        overflow: hidden;
+    }
+
+}

@@ -1,0 +1,25 @@
+.forum-item .sticker {
+    position: relative;
+}
+.forum-item .dog  {
+    position: absolute;
+    top: -0.4rem;
+    z-index: 0;
+    opacity: 0.4;
+}
+
+.forum-item .num-res {
+    position: absolute;
+    z-index: 1;
+    top: -0.2rem;
+    left: 1rem;
+    color: black;
+    font-size: 2rem;
+}
+
+.forum-item .title {
+    overflow: auto;
+    white-space: pre-wrap;
+    word-break: break-all;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,22 @@
+.post {
+    height: 110vw;
+    width: 50rem;
+}
+
+.post .content {
+    overflow: auto;
+}
+
+.post .title {
+    font-size: 1.5rem;
+    overflow: auto;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+.post .body {
+    font-size: 1.2rem;
+    overflow: auto;
+    white-space: pre-wrap;
+    word-break: break-all;
+}

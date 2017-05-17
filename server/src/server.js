@@ -1,6 +1,6 @@
 const express = require('express');
 
-const postRouter = require('./routers/posts.js');
+const forumRouter = require('./routers/forum.js');
 const requestLogger = require('./middleware/request-logger.js');
 const errorHandler = require('./middleware/error-handler.js');
 
@@ -30,7 +30,7 @@ app.use(express.static('dist', {
         res.set('Cache-Control', 'public, s-maxage=86400');
     }
 }));
-app.use('/api', postRouter);
+app.use('/api', forumRouter);
 app.get('/*', (req, res) => res.redirect('/'));
 app.use(errorHandler);
 

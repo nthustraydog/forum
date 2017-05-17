@@ -1,0 +1,30 @@
+.forum-form {
+    height: 100%;
+}
+
+/*.forum-form .left {
+
+}*/
+
+.forum-form .dropdown, .forum-form .dropdowns, .forum-form .button {
+    cursor: pointer;
+}
+
+.forum-form .dropdowns:hover {
+    font: bold 1rem "Microsoft JhengHei";
+}
+
+.forum-form .dog {
+    width: 6rem;
+    height: 4.5rem;
+}
+
+.forum-form .body {
+    height: 8rem;
+}
+
+@media (max-width: 768px){
+    .forum-form .left {
+        width: 10rem;
+    }
+}

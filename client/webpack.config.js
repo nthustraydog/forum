@@ -10,7 +10,9 @@ module.exports = {
         alias: {
             states: path.resolve(srcPath, 'states'),
             components: path.resolve(srcPath, 'components'),
-            api: path.resolve(srcPath, 'api')
+            api: path.resolve(srcPath, 'api'),
+            images: path.resolve(srcPath, 'images'),
+            utilities: path.resolve(srcPath, 'utilities')
         }
     },
     entry: {
